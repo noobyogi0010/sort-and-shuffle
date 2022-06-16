@@ -1,0 +1,79 @@
+/* utility classes */
+.backgrd-color {
+  background-color: #efefef;
+}
+.color-primary {
+  background-color: #2b8ead;
+}
+.m-b-l {
+  margin-bottom: 2rem;
+}
+
+/* base style */
+body {
+  margin: 0px;
+}
+header h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+footer {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+main {
+  display: flex;
+  border-top: 8px solid #bfbfbf;
+}
+
+/* component specific styes */
+.canvas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex: 3;
+  background-color: #efefef;
+}
+.controls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.card {
+  width: 33.33%;
+  margin: 0px;
+  padding-bottom: 6%;
+  padding-top: 6%;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 4px solid #2f454e;
+  font-size: 0.8rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  footer {
+    font-size: 1rem;
+  }
+  .card {
+    font-size: 4rem;
+  }
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-bottom-width: 8px;
+  }
+}
